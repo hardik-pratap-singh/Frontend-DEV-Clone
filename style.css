@@ -265,8 +265,9 @@ ul {
   height: 200px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 600px) {
   .rightfixedbox {
-      height: 20% ;
+      height: 50% ;
+      opacity: 0;
   }
 }
