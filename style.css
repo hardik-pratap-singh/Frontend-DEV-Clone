@@ -273,12 +273,12 @@ ul {
   .rightfixedbox {
       height: 35% ;
       opacity: 1;
-      width: 63%;
+      width: 68%;
       margin: auto ;
       box-sizing: border-box; 
       position: relative;    
       top: 119px ;
-      left: 170px ;
+      left: 150px ;
 
 
   }
@@ -297,7 +297,7 @@ ul {
 }
 
   #myimg{
-    width: 400px ;
+    width: 200px ;
     height: 200px ;
     margin: auto ;
     display: flex;
