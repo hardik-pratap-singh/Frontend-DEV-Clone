@@ -151,7 +151,7 @@ a {
   position: absolute;
   display: inline-block;
   width: 780px;
-  border: 2px solid #969090;
+  /* border: 2px solid #969090; */
   /* margin: 0px -37px 40px 60px; */
   /* height: 300px; */
   border-radius: 5px;
@@ -265,9 +265,45 @@ ul {
   height: 200px;
 }
 
+.andar{
+  text-align: justify;
+}
+
 @media only screen and (max-width: 600px) {
   .rightfixedbox {
-      height: 50% ;
-      opacity: 0;
+      height: 35% ;
+      opacity: 1;
+      width: 55%;
+      margin: auto ;
+      box-sizing: border-box; 
+      position: relative;    
+      top: 119px ;
+      left: 170px ;
+
+
   }
+
+  .pooracontent{
+    margin-top: 500px ;
+    width: 90%;
+    /* position: relative; */
+    margin-right: 20px ;
+  }
+
+
+  .image {
+    margin-right: 28px;
+    margin-left: -35px;
+}
+
+  #myimg{
+    width: 500px ;
+    height: 200px ;
+    margin: auto ;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px ;
+  }
+
+
 }
